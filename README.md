@@ -35,15 +35,15 @@ Install ffmpeg
 
 # Running the Project 
 
-When testing out the LCD libraries, enter the following in your terminal window. 
+When testing out the LCD libraries, enter the following in your terminal window. <br>
 sudo apt-get update<br>
-sudo apt-get install build-essential python-dev python-smbus python-pip git
-sudo pip install RPi.GPIO
-git clone https://github.com/adafruit/Adafruit_Python_CharLCD.git__
-cd Adafruit_Python_CharLCD
-sudo python setup.py install
-cd examples
-sudo python char_lcd_plate.py
+sudo apt-get install build-essential python-dev python-smbus python-pip git<br>
+sudo pip install RPi.GPIO<br>
+git clone https://github.com/adafruit/Adafruit_Python_CharLCD.git<br>
+cd Adafruit_Python_CharLCD<br>
+sudo python setup.py install<br>
+cd examples<br>
+sudo python char_lcd_plate.py<br>
 
  Enabling the i2c bus and the camera can be done from the control panel on the screen on the pi, and checking to see whether it has been enabled can be done by entering "lsmod | grep i2c_" into the Linux terminal and looking for “i2c 6780” at the bottom of the text generated. 
  
