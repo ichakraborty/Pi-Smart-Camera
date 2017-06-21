@@ -35,6 +35,20 @@ Install ffmpeg
 
 # Running the Project 
 
+When testing out the LCD libraries, enter the following in your terminal window. 
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-smbus python-pip git
+sudo pip install RPi.GPIO
+git clone https://github.com/adafruit/Adafruit_Python_CharLCD.git
+cd Adafruit_Python_CharLCD
+sudo python setup.py install
+cd examples
+sudo python char_lcd_plate.py
+
+ Enabling the i2c bus and the camera can be done from the control panel on the screen on the pi, and checking to see whether it has been enabled can be done by entering "lsmod | grep i2c_" into the Linux terminal and looking for “i2c 6780” at the bottom of the text generated. 
+ 
+Also,  enter “sudo crontab -e” in the terminal window and then “@reboot sleep 30 ; sudo python /home/pi/ComputerVision.py &” after all of the commented lines. This allowed the automatic enabling of the app to execute when starting up
+
 Run the command, “./start.sh” to run the shell file and follow the instructions present on your terminal window by entering the credentials of your desired network and reconnect to it after completion. 
 
 Open a second terminal window In the window, run “./object_detect.sh” to take the picture. This will run the ComputerVision.py file to identify the object. 
