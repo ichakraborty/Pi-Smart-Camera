@@ -1,6 +1,6 @@
 # Raspberry Pi Smart Camera
 
-This project is an ongoing work under Anusua Trivedi, Data Scientist Sr. at Microsoft. Anusua is a mentor to Isha Chakraborty & Neelagreev Griddalur, who are the main contributors to this project.
+This project is an ongoing work under Anusua Trivedi, Data Scientist Sr. at Microsoft. Anusua is a mentor to Isha Chakraborty & Neelagreev Griddalur, who are the contributors to this project.
 
 The Raspberry Pi Smart Camera is a platform that allows one to perform object recognition using a Raspberry Pi. This software implements the Microsoft Computer Vision API and the Microsoft Bing Speech API. 
 
@@ -8,9 +8,11 @@ For more information on Microsoft Computer Vision APIs and the Microsoft Bing Sp
 
 Inspiration for this project came from Charles Channon’s article at https://www.hackster.io/cchannon/raspberry-pi-smart-camera-a8c786.
 
-If you run into any problems, feel free to contact Isha Chakraborty at ishachak@gmail.com or Neelagreev Griddalur at neelagreev@griddalur.xyz
+If you run into any problems, feel free to contact Anusua Trivedi at antriv@microsoft.com, Isha Chakraborty at ishachak@gmail.com and Neelagreev Griddalur at neelagreev@griddalur.xyz
 
 LinkedIns: 
+
+https://www.linkedin.com/in/anusua/
 
 https://www.linkedin.com/in/ishachakraborty/
 
